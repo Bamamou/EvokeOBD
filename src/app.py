@@ -14,6 +14,7 @@ import dash_daq as daq
 
 # Initialize the Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server  = app.server
 app.title ="EvokeOBD"
 colors = {
     'background': '#202020',
